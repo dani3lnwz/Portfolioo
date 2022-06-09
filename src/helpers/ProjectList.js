@@ -1,39 +1,32 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
-
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
+    name: "Pc Monkey",
+    image: "https://i.ibb.co/n6GLvrG/pc-monkey.png",
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Ecommerce Website",
-    image: Proj2,
+    name: "KahabarChai.com",
+    image: "https://i.ibb.co/mt0bcZy/food-app.png",
     skills: "React,Node.js,MongoDB",
   },
   {
-    name: "Spotify Clone",
-    image: Proj3,
+    name: "Review Loader",
+    image: "https://i.ibb.co/TBprkFk/review-loader.png",
     skills: "React,Node.js,MongoDB,SpotifyAPI",
   },
   {
-    name: "Social Media Website",
-    image: Proj4,
+    name: "Dream Photography",
+    image: "https://i.ibb.co/tJt2g2V/dream-photo.png",
+    skills: "React Native,JavaScript,HTML,CSS",
+  },
+  {
+    name: "Loki Convention Center",
+    image: "https://i.ibb.co/yWtBPBj/loki-convo.png",
     skills: "React,Node.js,MySQL,GraphQL",
   },
   {
-    name: "Dashboard Visualizer",
-    image: Proj5,
+    name: "Photo Shop",
+    image: "https://i.ibb.co/1d0zN7X/influ-pro.png",
     skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
   },
 ];
