@@ -40,18 +40,23 @@
 }
 
 #open {
-  height: 100vh;
+  height: 100vh; 
 }
 
 #open .links {
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
-  margin-top: 100px;
+  size: 100px;
+  height: 100px;
+  /* margin-top: 100px;  */
+  /* background-color: #21325e;  */
+
 }
 
 #open a {
-  width: 100%;
+  width: 100%; 
   text-align: center;
+  /* background-color: #21325e;  */
 }
 
 @media only screen and (max-width: 900px) {
@@ -83,6 +88,6 @@
   }
 
   #open .links {
-    flex-direction: row;
+    flex-direction: column;
   }
 }

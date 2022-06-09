@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import "../styles/ProjectDisplay.css";
+import "../styles/ProjectDisplay.css"; 
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -70,19 +70,19 @@ function ProjectDisplay() {
           </div>
         </Slider>
       </div>
-      <div className="project -mt-24 mb-0">
-        <h1> {project.name}</h1>
+      <div className="project md:-mt-24 mb-0">
+        <h1 className=""> {project.name}</h1>
         {/* <img src={project.image} />  */}
         <p className="mx-10">
           <b className="text-2xl">Description:</b>{" "}
           <span className="text-md">{project.desc}</span>
         </p>
-        <p className="mt-4">
+        <p className="mt-4 mx-10">
           <b className="text-2xl">Technology Used:</b>{" "}
           <span className="text-md">{project.tech}</span>
         </p>
         <br />
-        <div>
+        <div className="mb-12">
           <a
             href={project.live}
             target="_blank"

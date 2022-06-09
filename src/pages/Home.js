@@ -6,8 +6,6 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import "../styles/Home.css";
 import Contact from "./Contact";
 import Typography from "@material-ui/core/Typography";
-import Avatar from "@material-ui/core/Avatar";
-import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
@@ -26,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   typedContainer: {
-    position: "absolute",
+    position: "absolute", 
     top: "50%",
     left: "50%",
     transform: "translate(-50%,-50%)",
@@ -40,21 +38,21 @@ function Home() {
   const classes = useStyles();
   return (
     <>
-      <Box className={classes.typedContainer}>
-        <Typography className={classes.title} variant="h2">
-          <Typed strings={["Hi, Myself Mehedi Hassan"]} typeSpeed={40} />
-        </Typography>
-
-        <Typography className={classes.subtitle} variant="h5">
-          <Typed
-            strings={["Web Developer", "React Developer", "MERN Development"]}
-            typeSpeed={40}
-            backSpeed={50}
-            loop
-          />
-        </Typography>
-      </Box>
       <div className="home">
+        <Box className={classes.typedContainer}>
+          <Typography className={classes.title} variant="h2">
+            <Typed strings={["Hi, Myself Mehedi Hassan"]} typeSpeed={40} />
+          </Typography>
+
+          <Typography className={classes.subtitle} variant="h5">
+            <Typed
+              strings={["Web Developer", "React Developer", "MERN Development"]}
+              typeSpeed={40}
+              backSpeed={50}
+              loop
+            />
+          </Typography>
+        </Box>
         <div className="about">
           <h2 className="mb-16"></h2>
           <div className="prompt md:mt-8">
