@@ -41,10 +41,17 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  /* background-color: #202325;  */
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #a089ff;
+}
+.skills h2 {
+  color: #a089ff;
+}
+.skills span {
+  color: #a089ff;
 }
 
 .skills .list {
@@ -62,7 +69,7 @@
   }
 
   .about .prompt {
-    margin-top: 10px;
+    margin-top: 200px;
     font-size: 20px;
     width: 80%;
   }
