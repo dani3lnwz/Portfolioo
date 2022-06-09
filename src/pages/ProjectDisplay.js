@@ -6,6 +6,8 @@ import "../styles/ProjectDisplay.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import GithubIcon from "@material-ui/icons/GitHub";
+import LiveTv from "@material-ui/icons/LiveTv";
 
 
 
@@ -89,7 +91,7 @@ function ProjectDisplay() {
             rel="noopener noreferrer"
             className="text-xl font-semibold text-green-400 font-mono bg-gray-600 rounded p-2 mr-4"
           >
-            Live Site
+            Live Site <LiveTv style={{ fontSize: "30px", color: "#3b82f6" }} />
           </a>
           <a
             href={project.git}
@@ -97,7 +99,8 @@ function ProjectDisplay() {
             rel="noopener noreferrer"
             className="text-xl font-semibold text-violet-400 font-mono bg-gray-600 rounded p-2 mr-4"
           >
-            Github Code
+            Github Code{" "}
+            <GithubIcon style={{ fontSize: "30px", color: "tomato" }} />
           </a>
         </div>
       </div>

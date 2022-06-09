@@ -41,7 +41,7 @@ function Home() {
       <div className="home">
         <Box className={classes.typedContainer}>
           <Typography className={classes.title} variant="h2">
-            <Typed strings={["Hi, Myself Mehedi Hassan"]} typeSpeed={40} />
+            <Typed className="font-serif" strings={["Hi, Myself Mehedi Hassan"]} typeSpeed={40} />
           </Typography>
 
           <Typography className={classes.subtitle} variant="h5">
