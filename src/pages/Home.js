@@ -4,6 +4,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import "../styles/Home.css";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -67,6 +68,7 @@ function Home() {
           </li>
         </ol>
       </div>
+      <Contact></Contact>
     </div>
   );
 }

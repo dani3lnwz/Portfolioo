@@ -9,65 +9,54 @@ import WorkIcon from "@material-ui/icons/Work";
 
 function Experience() {
   return (
-    <div className="experience">
+    <div className="experience font-semibold">
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2015 - 2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Holy flower Model College
           </h3>
-          <p> High School Diploma</p>
+          <p> High Secondary Certificate</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2018 - 2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            American International University- Bangladesh
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
-          </h4>
+          <p className="vertical-timeline-element-subtitle">
+            Bachelor of Science Degree
+          </p>
 
-          <p> Computer Science</p>
+          <p> Computer Science and Engineering</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020"
+          date="01/2022 - 04/2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Teaching Assistant
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            American International University- Bangladesh
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+            I had 4 months of internship at American International
+            University-Bangladesh. I was assigned as Teaching Assistant under my
+            respected faculty Fahmida Alam. I learned a lot during my internship
+            period. I assisted and helped 80+ students with coding-related
+            problems. I gained management skills during this internship because
+            I had to manage the students in two sections.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
