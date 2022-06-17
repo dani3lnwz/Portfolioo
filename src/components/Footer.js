@@ -8,10 +8,10 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a href="https://github.com/hassanmehedi1" target="_blank">
-          <GithubIcon />
+          <GithubIcon style={{ color: "#161414" }} />
         </a>
         <a href="https://www.linkedin.com/in/hassanmehedi1/" target="_blank">
-          <LinkedInIcon />
+          <LinkedInIcon style={{ color: "#0078b1" }} />
         </a>
       </div>
       <p> &copy; 2022 Mehedi-Hassan</p>

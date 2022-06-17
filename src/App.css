@@ -3,8 +3,8 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: 'Nuosu SIL', serif;
-  background-color: #f0f0f0;
+  /* font-family: 'Nuosu SIL', serif;  */
+  background-color: #f0f0f0; 
 }
 
 
