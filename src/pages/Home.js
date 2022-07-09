@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     color: "tomato",
+    fontWeight: 500
   },
   subtitle: {
     color: "tan",
@@ -89,18 +90,18 @@ function Home() {
             </button>
           </a>
         </div>
-        <div className="bg-gray-900 skills">
-          <h1 className="title-font  mb-4 text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl mt-4 text-center bg-gray-900">
+        <div className=" skills">
+          <h1 className="title-font  mb-4 text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl mt-4 text-center ">
             Skills
           </h1>
           <div className="grid  md:grid-cols-2">
-            <div className="skills bg-gray-900">
+            <div className="skills ">
               <ol className="list">
                 <li className="item text-justify">
                   <h2 className=""> Front-End: </h2>
                   <span className="">
                     React.js, JavaScript, HTML-5, CSS-3, Bootstrap, TailwindCSS,
-                    SASS, Firebase, DaisyUI, React- Router, Axios, React-Query
+                    SASS, Firebase, DaisyUI, React-Router, Axios, React-Query.
                   </span>
                 </li>
                 <li className="item text-justify">
@@ -110,20 +111,19 @@ function Home() {
                 <li className="item text-justify">
                   <h2>Familiar With:</h2>
                   <span>
-                    C++, Java, C#,Next.Js, TypeScript, GraphQL, Jest, Agile,
+                    C++, Java, C#, Next.Js, TypeScript, Jest, Agile,
                     Scrum, Redux, php, Linux
                   </span>
                 </li>
                 <li className="item text-justify">
                   <h2>Tools/Others:</h2>
                   <span>
-                    Git, GitHub, Stripe, Netlify, npm, Heroku, JWT, VS Code,
-                    Sublime Text, Chrome Dev Tool, Figma, Vite, Canva
+                    Git, GitHub, Stripe, Netlify, npm, Heroku, JWT, VS Code, Chrome Dev Tool, Figma, Vite, Canva
                   </span>
                 </li>
               </ol>
             </div>
-            <div className="bg-gray-900 grid w-full mx-auto justify-items-center content-center">
+            <div className=" grid w-full mx-auto justify-items-center content-center">
               <img src={animation} alt="" />
             </div>
           </div>

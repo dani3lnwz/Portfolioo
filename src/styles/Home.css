@@ -41,13 +41,15 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #0e131f;
 }
 
 .skills h1 {
-  color: #a089ff; 
+  color: #0AA1DD; 
+  
 }
 .skills h2 {
-  color: cadetblue;
+  color: #3AB0FF;
 }
 .skills span {
   color: #a089ff;

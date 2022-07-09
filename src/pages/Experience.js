@@ -21,10 +21,10 @@ function Experience() {
           <p className="text-base font-sans">
             Passionate and Enthusiastic Web Developer. Proficient with CSS and
             JS Frameworks, with extensive knowledge of UX and user psychology.
-            primarily focus on developing user interface components and
+            Primarily focus on developing Front-End interface components and
             implementing them following well-known workflows. Ensuring the
             application is robust and easy to maintain. Extensive experience in
-            developing web applications using HTML/HTML5, XML, CSS/CSS3, SASS,
+            developing web applications using HTML/HTML5, CSS/CSS3, SASS,
             Daisy UI, API, JavaScript, Stripe, React JS, React-Router, JSON,
             Bootstrap and Tailwind-CSS.
           </p>
